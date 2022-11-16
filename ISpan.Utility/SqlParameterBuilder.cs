@@ -12,7 +12,7 @@ namespace ISpan.Utility
 	{
 		private List<SqlParameter> parameters = new List<SqlParameter>();
 
-		public SqlParameterBuilder AddVarchar(string name, int length, string value)
+		public SqlParameterBuilder AddNVarchar(string name, int length, string value)
 		{
 			var param = new SqlParameter(name, SqlDbType.NVarChar, length)
 				{ Value = value };
