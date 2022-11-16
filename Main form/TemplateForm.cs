@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Main_form
 {
-	public partial class LoginForm : Form
+	public partial class TemplateForm : Form
 	{
-		public LoginForm()
+		public TemplateForm()
 		{
 			InitializeComponent();
-		}
-
-		private void btnLogin_Click(object sender, EventArgs e)
-		{
-
 		}
 	}
 }

@@ -16,7 +16,7 @@ namespace Main_form
 		{
 			InitializeComponent();
 		}
-		public void loadForm(object form)
+		public void LoadForm(object form)
 		{
 			if (this.mainPanel.Controls.Count > 0) { this.mainPanel.Controls.RemoveAt(0); }
 			Form f = form as Form;
@@ -27,19 +27,24 @@ namespace Main_form
 			f.Show();
 		}
 
-		private void btnCharacter_Click(object sender, EventArgs e)
+		private void btnAdmin_Click(object sender, EventArgs e)
 		{
-			loadForm(new CharacterForm());
+			LoadForm(new AdminForm());
 		}
 
-		private void btnWeapen_Click(object sender, EventArgs e)
+		private void btnTemplate_Click(object sender, EventArgs e)
 		{
-			loadForm(new WeapenForm());
+			LoadForm(new TemplateForm());
 		}
 
-		private void btnSetting_Click(object sender, EventArgs e)
+		private void btnPhoto_Click(object sender, EventArgs e)
 		{
-			loadForm(new SettingForm());
+			LoadForm(new PhotoForm());
+		}
+
+		private void btnUser_Click(object sender, EventArgs e)
+		{
+			LoadForm(new UserForm());
 		}
 	}
 }

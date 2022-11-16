@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{912604B5-024B-4A97-BFBD-8C4E425B648B}</ProjectGuid>
+    <ProjectGuid>{18012B87-AD9C-49B4-95E9-01CBC9478CBA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Genshin.Utility</RootNamespace>
-    <AssemblyName>Genshin.Utility</AssemblyName>
+    <RootNamespace>ISpan.Utility</RootNamespace>
+    <AssemblyName>ISpan.Utility</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,9 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SqlParameterBuilder.cs" />
-    <Compile Include="SqlDbHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlDbHelper.cs" />
+    <Compile Include="SqlParameterBuilder.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,6 +1,6 @@
 ﻿namespace Main_form
 {
-	partial class SettingForm
+	partial class AdminForm
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -34,22 +34,22 @@
 			// label1
 			// 
 			this.label1.AutoSize = true;
-			this.label1.Font = new System.Drawing.Font("Arial", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(295, 174);
+			this.label1.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.Location = new System.Drawing.Point(275, 175);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(219, 42);
+			this.label1.Size = new System.Drawing.Size(225, 45);
 			this.label1.TabIndex = 0;
-			this.label1.Text = "SettingForm";
+			this.label1.Text = "AdminForm";
 			// 
-			// SettingForm
+			// AdminForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
 			this.Controls.Add(this.label1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-			this.Name = "SettingForm";
-			this.Text = "SettingForm";
+			this.Name = "AdminForm";
+			this.Text = "AdminForm";
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

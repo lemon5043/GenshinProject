@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenshinProject", "Main form\GenshinProject.csproj", "{C5E6AD00-10C9-46FE-BE26-AA3684BFBAE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemeProject", "Main form\MemeProject.csproj", "{C5E6AD00-10C9-46FE-BE26-AA3684BFBAE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genshin.Utility", "Genshin.Utility\Genshin.Utility.csproj", "{912604B5-024B-4A97-BFBD-8C4E425B648B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISpan.Utility", "ISpan.Utility\ISpan.Utility.csproj", "{18012B87-AD9C-49B4-95E9-01CBC9478CBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{6D103E79-38C1-4E55-ABE2-AB7C5D26FAB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,13 +19,16 @@ Global
 		{C5E6AD00-10C9-46FE-BE26-AA3684BFBAE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5E6AD00-10C9-46FE-BE26-AA3684BFBAE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5E6AD00-10C9-46FE-BE26-AA3684BFBAE1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{912604B5-024B-4A97-BFBD-8C4E425B648B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{912604B5-024B-4A97-BFBD-8C4E425B648B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{912604B5-024B-4A97-BFBD-8C4E425B648B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{912604B5-024B-4A97-BFBD-8C4E425B648B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18012B87-AD9C-49B4-95E9-01CBC9478CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18012B87-AD9C-49B4-95E9-01CBC9478CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18012B87-AD9C-49B4-95E9-01CBC9478CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18012B87-AD9C-49B4-95E9-01CBC9478CBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18012B87-AD9C-49B4-95E9-01CBC9478CBA} = {6D103E79-38C1-4E55-ABE2-AB7C5D26FAB2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1345313F-D83C-4109-A8D2-5A8408C937E9}

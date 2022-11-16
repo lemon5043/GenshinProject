@@ -29,23 +29,22 @@
 		private void InitializeComponent()
 		{
 			this.menuPanel = new System.Windows.Forms.Panel();
-			this.btnSetting = new System.Windows.Forms.Button();
-			this.btnWeapen = new System.Windows.Forms.Button();
-			this.btnCharacter = new System.Windows.Forms.Button();
+			this.btnUser = new System.Windows.Forms.Button();
+			this.btnPhoto = new System.Windows.Forms.Button();
+			this.btnTemplate = new System.Windows.Forms.Button();
 			this.optionPanel = new System.Windows.Forms.Panel();
-			this.button1 = new System.Windows.Forms.Button();
-			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.mainPanel = new System.Windows.Forms.Panel();
+			this.btnAdmin = new System.Windows.Forms.Button();
 			this.menuPanel.SuspendLayout();
-			this.optionPanel.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// menuPanel
 			// 
 			this.menuPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-			this.menuPanel.Controls.Add(this.btnSetting);
-			this.menuPanel.Controls.Add(this.btnWeapen);
-			this.menuPanel.Controls.Add(this.btnCharacter);
+			this.menuPanel.Controls.Add(this.btnAdmin);
+			this.menuPanel.Controls.Add(this.btnUser);
+			this.menuPanel.Controls.Add(this.btnPhoto);
+			this.menuPanel.Controls.Add(this.btnTemplate);
 			this.menuPanel.Dock = System.Windows.Forms.DockStyle.Left;
 			this.menuPanel.Location = new System.Drawing.Point(0, 0);
 			this.menuPanel.Margin = new System.Windows.Forms.Padding(0);
@@ -53,67 +52,47 @@
 			this.menuPanel.Size = new System.Drawing.Size(107, 826);
 			this.menuPanel.TabIndex = 1;
 			// 
-			// btnSetting
+			// btnUser
 			// 
-			this.btnSetting.Location = new System.Drawing.Point(0, 198);
-			this.btnSetting.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-			this.btnSetting.Name = "btnSetting";
-			this.btnSetting.Size = new System.Drawing.Size(107, 100);
-			this.btnSetting.TabIndex = 2;
-			this.btnSetting.Text = "setting";
-			this.btnSetting.UseVisualStyleBackColor = true;
-			this.btnSetting.Click += new System.EventHandler(this.btnSetting_Click);
+			this.btnUser.Location = new System.Drawing.Point(0, 198);
+			this.btnUser.Margin = new System.Windows.Forms.Padding(4);
+			this.btnUser.Name = "btnUser";
+			this.btnUser.Size = new System.Drawing.Size(107, 100);
+			this.btnUser.TabIndex = 2;
+			this.btnUser.Text = "User";
+			this.btnUser.UseVisualStyleBackColor = true;
+			this.btnUser.Click += new System.EventHandler(this.btnUser_Click);
 			// 
-			// btnWeapen
+			// btnPhoto
 			// 
-			this.btnWeapen.Location = new System.Drawing.Point(0, 99);
-			this.btnWeapen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-			this.btnWeapen.Name = "btnWeapen";
-			this.btnWeapen.Size = new System.Drawing.Size(107, 100);
-			this.btnWeapen.TabIndex = 1;
-			this.btnWeapen.Text = "weapen";
-			this.btnWeapen.UseVisualStyleBackColor = true;
-			this.btnWeapen.Click += new System.EventHandler(this.btnWeapen_Click);
+			this.btnPhoto.Location = new System.Drawing.Point(0, 99);
+			this.btnPhoto.Margin = new System.Windows.Forms.Padding(4);
+			this.btnPhoto.Name = "btnPhoto";
+			this.btnPhoto.Size = new System.Drawing.Size(107, 100);
+			this.btnPhoto.TabIndex = 1;
+			this.btnPhoto.Text = "photo";
+			this.btnPhoto.UseVisualStyleBackColor = true;
+			this.btnPhoto.Click += new System.EventHandler(this.btnPhoto_Click);
 			// 
-			// btnCharacter
+			// btnTemplate
 			// 
-			this.btnCharacter.Location = new System.Drawing.Point(0, 0);
-			this.btnCharacter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-			this.btnCharacter.Name = "btnCharacter";
-			this.btnCharacter.Size = new System.Drawing.Size(107, 100);
-			this.btnCharacter.TabIndex = 0;
-			this.btnCharacter.Text = "character";
-			this.btnCharacter.UseVisualStyleBackColor = true;
-			this.btnCharacter.Click += new System.EventHandler(this.btnCharacter_Click);
+			this.btnTemplate.Location = new System.Drawing.Point(0, 0);
+			this.btnTemplate.Margin = new System.Windows.Forms.Padding(4);
+			this.btnTemplate.Name = "btnTemplate";
+			this.btnTemplate.Size = new System.Drawing.Size(107, 100);
+			this.btnTemplate.TabIndex = 0;
+			this.btnTemplate.Text = "template";
+			this.btnTemplate.UseVisualStyleBackColor = true;
+			this.btnTemplate.Click += new System.EventHandler(this.btnTemplate_Click);
 			// 
 			// optionPanel
 			// 
 			this.optionPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(62)))));
-			this.optionPanel.Controls.Add(this.button1);
-			this.optionPanel.Controls.Add(this.textBox1);
 			this.optionPanel.Location = new System.Drawing.Point(107, 0);
 			this.optionPanel.Margin = new System.Windows.Forms.Padding(0);
 			this.optionPanel.Name = "optionPanel";
 			this.optionPanel.Size = new System.Drawing.Size(533, 826);
 			this.optionPanel.TabIndex = 2;
-			// 
-			// button1
-			// 
-			this.button1.Location = new System.Drawing.Point(317, 15);
-			this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(100, 29);
-			this.button1.TabIndex = 1;
-			this.button1.Text = "button1";
-			this.button1.UseVisualStyleBackColor = true;
-			// 
-			// textBox1
-			// 
-			this.textBox1.Location = new System.Drawing.Point(37, 15);
-			this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(237, 25);
-			this.textBox1.TabIndex = 0;
 			// 
 			// mainPanel
 			// 
@@ -124,6 +103,17 @@
 			this.mainPanel.Size = new System.Drawing.Size(1053, 826);
 			this.mainPanel.TabIndex = 3;
 			// 
+			// btnAdmin
+			// 
+			this.btnAdmin.Location = new System.Drawing.Point(0, 296);
+			this.btnAdmin.Margin = new System.Windows.Forms.Padding(4);
+			this.btnAdmin.Name = "btnAdmin";
+			this.btnAdmin.Size = new System.Drawing.Size(107, 100);
+			this.btnAdmin.TabIndex = 3;
+			this.btnAdmin.Text = "Admin";
+			this.btnAdmin.UseVisualStyleBackColor = true;
+			this.btnAdmin.Click += new System.EventHandler(this.btnAdmin_Click);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -132,12 +122,10 @@
 			this.Controls.Add(this.mainPanel);
 			this.Controls.Add(this.optionPanel);
 			this.Controls.Add(this.menuPanel);
-			this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.Margin = new System.Windows.Forms.Padding(4);
 			this.Name = "MainForm";
 			this.Text = "MainForm";
 			this.menuPanel.ResumeLayout(false);
-			this.optionPanel.ResumeLayout(false);
-			this.optionPanel.PerformLayout();
 			this.ResumeLayout(false);
 
 		}
@@ -145,13 +133,12 @@
 		#endregion
 
 		private System.Windows.Forms.Panel menuPanel;
-		private System.Windows.Forms.Button btnSetting;
-		private System.Windows.Forms.Button btnWeapen;
-		private System.Windows.Forms.Button btnCharacter;
+		private System.Windows.Forms.Button btnUser;
+		private System.Windows.Forms.Button btnPhoto;
+		private System.Windows.Forms.Button btnTemplate;
 		private System.Windows.Forms.Panel optionPanel;
 		private System.Windows.Forms.Panel mainPanel;
-		private System.Windows.Forms.Button button1;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.Button btnAdmin;
 	}
 }
 

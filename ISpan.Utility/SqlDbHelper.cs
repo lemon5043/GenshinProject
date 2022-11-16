@@ -6,10 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Genshin.Utility
+namespace ISpan.Utility
 {
-    public class SqlDbHelper
-    {
+	public class SqlDbHelper
+	{
 		private string connString;
 		/// <summary>
 		/// 

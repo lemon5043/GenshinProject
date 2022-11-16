@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Main_form
 {
-	public partial class CharacterForm : Form
+	public partial class UserForm : Form
 	{
-		public CharacterForm()
+		public UserForm()
 		{
 			InitializeComponent();
 		}

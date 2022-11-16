@@ -1,6 +1,6 @@
 ﻿namespace Main_form
 {
-	partial class CharacterForm
+	partial class TemplateForm
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -35,20 +35,22 @@
 			// 
 			this.label1.AutoSize = true;
 			this.label1.Font = new System.Drawing.Font("Arial", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(248, 177);
+			this.label1.Location = new System.Drawing.Point(331, 221);
+			this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(266, 42);
+			this.label1.Size = new System.Drawing.Size(320, 53);
 			this.label1.TabIndex = 1;
-			this.label1.Text = "CharacterForm";
+			this.label1.Text = "TemplateForm";
 			// 
-			// CharacterForm
+			// TemplateForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.ClientSize = new System.Drawing.Size(1067, 562);
 			this.Controls.Add(this.label1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-			this.Name = "CharacterForm";
+			this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.Name = "TemplateForm";
 			this.Text = "CharacterForm";
 			this.ResumeLayout(false);
 			this.PerformLayout();

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Main_form
 {
-	public partial class WeapenForm : Form
+	public partial class PhotoForm : Form
 	{
-		public WeapenForm()
+		public PhotoForm()
 		{
 			InitializeComponent();
 		}
