@@ -121,5 +121,19 @@
       <Name>Genshin.Utility</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="images\characterImage\Bennett.png" />
+    <Content Include="images\characterImage\Keqing.png" />
+    <Content Include="images\characterImage\Nahida.png" />
+    <Content Include="images\characterImage\Venti.png" />
+    <Content Include="images\designNote.txt" />
+    <Content Include="images\element image\dbycshw2uiw51.png" />
+    <Content Include="images\icon image\exp.jpg" />
+    <Content Include="images\icon image\member.png" />
+    <Content Include="images\icon image\mora.jpg" />
+    <Content Include="images\icon image\paimon.png" />
+    <Content Include="images\icon image\sword.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

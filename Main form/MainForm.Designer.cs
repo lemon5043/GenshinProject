@@ -33,9 +33,9 @@
 			this.btnWeapen = new System.Windows.Forms.Button();
 			this.btnCharacter = new System.Windows.Forms.Button();
 			this.optionPanel = new System.Windows.Forms.Panel();
-			this.mainPanel = new System.Windows.Forms.Panel();
-			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.button1 = new System.Windows.Forms.Button();
+			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.mainPanel = new System.Windows.Forms.Panel();
 			this.menuPanel.SuspendLayout();
 			this.optionPanel.SuspendLayout();
 			this.SuspendLayout();
@@ -50,14 +50,15 @@
 			this.menuPanel.Location = new System.Drawing.Point(0, 0);
 			this.menuPanel.Margin = new System.Windows.Forms.Padding(0);
 			this.menuPanel.Name = "menuPanel";
-			this.menuPanel.Size = new System.Drawing.Size(80, 661);
+			this.menuPanel.Size = new System.Drawing.Size(107, 826);
 			this.menuPanel.TabIndex = 1;
 			// 
 			// btnSetting
 			// 
-			this.btnSetting.Location = new System.Drawing.Point(0, 208);
+			this.btnSetting.Location = new System.Drawing.Point(0, 198);
+			this.btnSetting.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.btnSetting.Name = "btnSetting";
-			this.btnSetting.Size = new System.Drawing.Size(80, 80);
+			this.btnSetting.Size = new System.Drawing.Size(107, 100);
 			this.btnSetting.TabIndex = 2;
 			this.btnSetting.Text = "setting";
 			this.btnSetting.UseVisualStyleBackColor = true;
@@ -65,9 +66,10 @@
 			// 
 			// btnWeapen
 			// 
-			this.btnWeapen.Location = new System.Drawing.Point(0, 108);
+			this.btnWeapen.Location = new System.Drawing.Point(0, 99);
+			this.btnWeapen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.btnWeapen.Name = "btnWeapen";
-			this.btnWeapen.Size = new System.Drawing.Size(80, 80);
+			this.btnWeapen.Size = new System.Drawing.Size(107, 100);
 			this.btnWeapen.TabIndex = 1;
 			this.btnWeapen.Text = "weapen";
 			this.btnWeapen.UseVisualStyleBackColor = true;
@@ -75,9 +77,10 @@
 			// 
 			// btnCharacter
 			// 
-			this.btnCharacter.Location = new System.Drawing.Point(0, 12);
+			this.btnCharacter.Location = new System.Drawing.Point(0, 0);
+			this.btnCharacter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.btnCharacter.Name = "btnCharacter";
-			this.btnCharacter.Size = new System.Drawing.Size(80, 80);
+			this.btnCharacter.Size = new System.Drawing.Size(107, 100);
 			this.btnCharacter.TabIndex = 0;
 			this.btnCharacter.Text = "character";
 			this.btnCharacter.UseVisualStyleBackColor = true;
@@ -88,45 +91,48 @@
 			this.optionPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(62)))));
 			this.optionPanel.Controls.Add(this.button1);
 			this.optionPanel.Controls.Add(this.textBox1);
-			this.optionPanel.Location = new System.Drawing.Point(80, 0);
+			this.optionPanel.Location = new System.Drawing.Point(107, 0);
 			this.optionPanel.Margin = new System.Windows.Forms.Padding(0);
 			this.optionPanel.Name = "optionPanel";
-			this.optionPanel.Size = new System.Drawing.Size(400, 661);
+			this.optionPanel.Size = new System.Drawing.Size(533, 826);
 			this.optionPanel.TabIndex = 2;
-			// 
-			// mainPanel
-			// 
-			this.mainPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-			this.mainPanel.Location = new System.Drawing.Point(480, 0);
-			this.mainPanel.Margin = new System.Windows.Forms.Padding(0);
-			this.mainPanel.Name = "mainPanel";
-			this.mainPanel.Size = new System.Drawing.Size(790, 661);
-			this.mainPanel.TabIndex = 3;
-			// 
-			// textBox1
-			// 
-			this.textBox1.Location = new System.Drawing.Point(28, 12);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(179, 22);
-			this.textBox1.TabIndex = 0;
 			// 
 			// button1
 			// 
-			this.button1.Location = new System.Drawing.Point(238, 12);
+			this.button1.Location = new System.Drawing.Point(317, 15);
+			this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(75, 23);
+			this.button1.Size = new System.Drawing.Size(100, 29);
 			this.button1.TabIndex = 1;
 			this.button1.Text = "button1";
 			this.button1.UseVisualStyleBackColor = true;
 			// 
+			// textBox1
+			// 
+			this.textBox1.Location = new System.Drawing.Point(37, 15);
+			this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.textBox1.Name = "textBox1";
+			this.textBox1.Size = new System.Drawing.Size(237, 25);
+			this.textBox1.TabIndex = 0;
+			// 
+			// mainPanel
+			// 
+			this.mainPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+			this.mainPanel.Location = new System.Drawing.Point(640, 0);
+			this.mainPanel.Margin = new System.Windows.Forms.Padding(0);
+			this.mainPanel.Name = "mainPanel";
+			this.mainPanel.Size = new System.Drawing.Size(1053, 826);
+			this.mainPanel.TabIndex = 3;
+			// 
 			// MainForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(1264, 661);
+			this.ClientSize = new System.Drawing.Size(1685, 826);
 			this.Controls.Add(this.mainPanel);
 			this.Controls.Add(this.optionPanel);
 			this.Controls.Add(this.menuPanel);
+			this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.Name = "MainForm";
 			this.Text = "MainForm";
 			this.menuPanel.ResumeLayout(false);
