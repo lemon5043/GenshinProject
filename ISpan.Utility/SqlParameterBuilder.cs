@@ -44,6 +44,14 @@ namespace ISpan.Utility
 			return this;
 		}
 
+		public SqlParameterBuilder AddByte(string name, byte[] value)
+		{
+			var param = new SqlParameter(name, SqlDbType.VarBinary)
+			{ Value = value };
+			parameters.Add(param);
+			return this;
+		}
+
 		public SqlParameter[] Build()
 		{
 			return parameters.ToArray();

@@ -1,6 +1,6 @@
 ﻿namespace Main_form
 {
-	partial class AdminForm
+	partial class UserForm
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -34,22 +34,26 @@
 			// label1
 			// 
 			this.label1.AutoSize = true;
-			this.label1.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(275, 175);
+			this.label1.Font = new System.Drawing.Font("Arial", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.ForeColor = System.Drawing.Color.White;
+			this.label1.Location = new System.Drawing.Point(151, 274);
+			this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(225, 45);
+			this.label1.Size = new System.Drawing.Size(232, 53);
 			this.label1.TabIndex = 0;
-			this.label1.Text = "AdminForm";
+			this.label1.Text = "UserForm";
 			// 
-			// AdminForm
+			// UserForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+			this.ClientSize = new System.Drawing.Size(1600, 875);
 			this.Controls.Add(this.label1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-			this.Name = "AdminForm";
-			this.Text = "AdminForm";
+			this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.Name = "UserForm";
+			this.Text = "SettingForm";
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

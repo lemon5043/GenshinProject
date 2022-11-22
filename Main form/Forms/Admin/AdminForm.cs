@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Main_form.Infra.Extensions;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,16 @@ namespace Main_form
 		public AdminForm()
 		{
 			InitializeComponent();
+		}
+
+		private void btnManageUser_Click(object sender, EventArgs e)
+		{
+			operationPanel.LoadForm(new ManageUserForm());
+		}
+
+		private void btnManageMeme_Click(object sender, EventArgs e)
+		{
+
 		}
 	}
 }

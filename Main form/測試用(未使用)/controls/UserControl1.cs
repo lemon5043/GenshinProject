@@ -8,16 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Main_form
+namespace Main_form.test
 {
-	public partial class LoginForm : Form
+	public partial class UserControl1 : UserControl
 	{
-		public LoginForm()
+		public UserControl1()
 		{
 			InitializeComponent();
 		}
 
-		private void btnLogin_Click(object sender, EventArgs e)
+		private void label1_Click(object sender, EventArgs e)
 		{
 
 		}
